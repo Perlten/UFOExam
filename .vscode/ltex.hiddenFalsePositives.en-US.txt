@@ -1,0 +1,1 @@
+{"rule":"PRP_MD_NN","sentence":"^\\QBy showing the reader this aspect, it would supplementary show C speed advantage is not only applicable to sorting but also other forms of operations.\\E$"}
