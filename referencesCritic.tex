@@ -1,6 +1,11 @@
 \documentclass{article}
 
 \usepackage{hyperref}
+\usepackage{url}
+\usepackage{float}
+\usepackage{graphicx}
+
+\graphicspath{ {./images/} }
 
 \title{Article 3 Reference Critic}
 
@@ -11,22 +16,14 @@
 \begin{document}
   
 \maketitle
-
-%https://link.springer.com/article/10.1186/1471-2105-9-82
-
-
-%could be used in order to see if other usecases had the same results as the ones found in the article.
-%https://wireilla.com/papers/ijpla/V5N3/5315ijpla01.pdf
-
 \section*{Intro}
-In this report I will try to further improve on the excellent report Quick-Sort Performance written by Michael Ejdal Lundsgaard\cite{orginalArticle}. I will do this by finding references that I believe would help improve the article, and further validate the point the original author wanted to illuminate.  
+In this report I will try to further improve on the excellent report Quick-Sort Performance written by Michael Ejdal Lundsgaard\cite{pythonVsCSQuickSort}. I will do this by finding references that I believe would help improve the article, and further validate the point the original author wanted to illuminate.  
 
 \section*{C\# versus Python runtime operations}
 % TODO: mention and link the actual article. 
 % 1 What will this reference help the article.
-In the original article the author concluded that C\# is 14x faster than Python. However, this is only when comparing C\# and Python on quick sort algorithm. Is this still applicable when compared to other algorithms, or other forms of computer operations. If the article had references another article also concluding this, it would further strengthen the statement that C\# is a significantly faster language than Python. To this I have found an article that I believe accomplishes this purpose\cite{CSvPythonRuntime}. %TODO Insert article  
+In the original article the author concluded that C\# is 14x faster than Python. However, this is only when comparing C\# and Python on quick sort algorithm. Is this still applicable when compared to other algorithms, or other forms of computer operations. If the article had references another article also concluding this, it would further strengthen the statement that C\# is a significantly faster language than Python. To this I have found an article that I believe accomplishes this purpose\cite{karaci2015performance}.  
 % 2 What does this reference actually say
-
 
 The article measures on multiple different metrics runtimes of C\# and python. The ones I will discuss and compare to the original article are.
 
@@ -35,7 +32,14 @@ The article measures on multiple different metrics runtimes of C\# and python. T
   \item Multiplication of two matrices.
   \item Printing Hello World on the screen 5000 times.  
 \end{itemize}
-The main aspect I would focus on in the reference article, will be sorting since it is the driving force of the original article. We can see from the table above taken from the reference article, that the reference article as well can conclude that sorting is magnitudes faster using C\# instead of Python. This would have further solidified the main point of the original article, that C\# is faster than Python when comparing sorting algorithms. Not only that, but also that this is not only true for quick sort, but other sorting algorithms as well.
+
+\begin{figure}
+  \caption{Runtime comparison}
+  \label{fig:runtimeTable}
+  \includegraphics[width=\textwidth]{runtimeTable.png}
+\end{figure}
+
+The main aspect I would focus on in the reference article, will be sorting since it is the driving force of the original article. We can see from table\ref{fig:runtimeTable} taken from the reference article, that the reference article as well can conclude that sorting is magnitudes faster using C\# instead of Python. This would have further solidified the main point of the original article, that C\# is faster than Python when comparing sorting algorithms. Not only that, but also that this is not only true for quick sort, but other sorting algorithms as well.
 
 I also believe the article could benefit from quickly mentioning the remaining two metrics. These are still measurably faster when using C\#, however still not on the same scale as sorting. By showing the reader this aspect, it would supplementary show C\# speed advantage is not only applicable to sorting but also other forms of operations. This would in turn make the article more usable to more readers. 
 % 3 What are some variables to keep in mind when using the reference.
@@ -51,10 +55,13 @@ The author not only compares python to C\#, but also pypy, and throughout the ar
   \item Pypy being a JIT compiler.
   \item That pypy does not have any benefits on the first run through of the code.
 \end{itemize}
-These statements are never backed by any sources, but by using a source such as\cite{pypyRef}, the reader would be left with no doubt as to the validity of the claims. None of the statements are false, however by having external sources backing up the claims it would further cement the article as reputable.
+These statements are never backed by any sources, but by using a source such as\cite{pypy}, the reader would be left with no doubt as to the validity of the claims. None of the statements are false, however by having external sources backing up the claims it would further cement the article as reputable.
 
 \section*{Outro}
 Overall I think this is an incredible article written by Michael Ejdal Lundsgaard. It's an interesting topic that is well explained and well documented, by the author. However, I believe that if the two references mentioned in this critic could be incorporated, it would even further improve the quality of the article.
 
+
+\bibliographystyle{unsrt}
+\bibliography{references}
 
 \end{document}

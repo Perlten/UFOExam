@@ -1,0 +1,22 @@
+\begin{thebibliography}{1}
+
+\bibitem{pythonVsCSQuickSort}
+Michael~Ejdal Lundsgaard.
+\newblock Quick-sort performance c\# vs python.
+\newblock 2020.
+\newblock
+  \url{https://cphbusiness.mrooms.net/pluginfile.php/491289/mod_resource/content/1/Artikel%203%20Quick-Sort%20Performance%2C%20C%23%20vs%20Python.pdf}.
+
+\bibitem{karaci2015performance}
+Abdulkadir KARACI.
+\newblock A performance comparison of c\# 2013, delphi xe6, and python 3.4
+  languages.
+\newblock {\em Int J Progr Lang Appl}, 2015.
+\newblock \url{https://wireilla.com/papers/ijpla/V5N3/5315ijpla01.pdf}.
+
+\bibitem{pypy}
+The~PyPy team.
+\newblock Pypy features.
+\newblock \url{https://www.pypy.org/features.html}.
+
+\end{thebibliography}
