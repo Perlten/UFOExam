@@ -1,15 +1,15 @@
 # Fdb version 3
-["bibtex referencesCritic"] 1609353395 "referencesCritic.aux" "referencesCritic.bbl" "referencesCritic" 1609353395
+["bibtex referencesCritic"] 1609354315 "referencesCritic.aux" "referencesCritic.bbl" "referencesCritic" 1609787898
   "/usr/share/texmf-dist/bibtex/bst/base/unsrt.bst" 1591545468 18030 1376b4b231b50c66211e47e42eda2875 ""
   "references.bib" 1609352688 784 1fe6e63692f6521efb0b2ae70d452a08 ""
-  "referencesCritic.aux" 1609353395 1063 80fc617d7836b66a5d037154c29b9b08 "pdflatex"
+  "referencesCritic.aux" 1609787897 1063 80fc617d7836b66a5d037154c29b9b08 "pdflatex"
   (generated)
   "referencesCritic.blg"
   "referencesCritic.bbl"
-["pdflatex"] 1609353395 "/home/perlt/Documents/github/UFOExam/referencesCritic.tex" "/home/perlt/Documents/github/UFOExam/referencesCritic.pdf" "referencesCritic" 1609353395
+["pdflatex"] 1609787897 "/home/perlt/Documents/github/UFOExam/referencesCritic.tex" "/home/perlt/Documents/github/UFOExam/referencesCritic.pdf" "referencesCritic" 1609787898
   "./images/runtimeTable.png" 1609352888 53934 335e3370b0e2bd2921b051c637179cc8 ""
-  "/home/perlt/Documents/github/UFOExam/referencesCritic.aux" 1609353395 1063 80fc617d7836b66a5d037154c29b9b08 ""
-  "/home/perlt/Documents/github/UFOExam/referencesCritic.tex" 1609353394 4687 a4504d35c209d3578b160f61e756a58b ""
+  "/home/perlt/Documents/github/UFOExam/referencesCritic.aux" 1609787897 1063 80fc617d7836b66a5d037154c29b9b08 ""
+  "/home/perlt/Documents/github/UFOExam/referencesCritic.tex" 1609787897 4692 728deedefed1aba8e4b0edc81637cb04 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1591545468 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1591545468 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1591545468 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -76,14 +76,14 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1606298697 334180 163417853e75f7c89e92e140d6d6e976 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1606298683 2514043 5e4abb78545382c117f0cf70a3eda70d ""
   "images/runtimeTable.png" 1609352888 53934 335e3370b0e2bd2921b051c637179cc8 ""
-  "referencesCritic.aux" 1609353395 1063 80fc617d7836b66a5d037154c29b9b08 "pdflatex"
-  "referencesCritic.bbl" 1609353395 698 5d1c3943c4dffbf253ca2409e28da33c "bibtex referencesCritic"
-  "referencesCritic.out" 1609353395 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "referencesCritic.tex" 1609353394 4687 a4504d35c209d3578b160f61e756a58b ""
+  "referencesCritic.aux" 1609787897 1063 80fc617d7836b66a5d037154c29b9b08 "pdflatex"
+  "referencesCritic.bbl" 1609354315 698 5d1c3943c4dffbf253ca2409e28da33c "bibtex referencesCritic"
+  "referencesCritic.out" 1609787897 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "referencesCritic.tex" 1609787897 4692 728deedefed1aba8e4b0edc81637cb04 ""
   (generated)
   "referencesCritic.log"
-  "referencesCritic.out"
   "/home/perlt/Documents/github/UFOExam/referencesCritic.log"
-  "referencesCritic.aux"
-  "referencesCritic.pdf"
   "/home/perlt/Documents/github/UFOExam/referencesCritic.pdf"
+  "referencesCritic.out"
+  "referencesCritic.pdf"
+  "referencesCritic.aux"
